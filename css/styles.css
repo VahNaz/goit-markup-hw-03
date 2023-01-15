@@ -54,6 +54,9 @@ body {
     color: #2196F3;
     letter-spacing: 0.03em;
 
+}
+
+.header-logo{
     margin-right: 93px;
 }
 
@@ -134,7 +137,11 @@ body {
 
 .title {
     background-color: #2F303A;
+    padding-top: 200px;
+    padding-bottom: 200px;
+    justify-content: center;
 }
+
 
 .main-title {
     color: var(--dark-theme-text-color);
@@ -144,6 +151,12 @@ body {
     text-align: center;
     letter-spacing: 0.06em;
     text-transform: uppercase;
+
+    width: 700px;
+    height: 120px;
+    margin-bottom: 30px;
+    margin-right: auto;
+    margin-left: auto;
 }
 
 .button {
@@ -157,6 +170,31 @@ body {
     align-items: center;
     text-align: center;
     letter-spacing: 0.06em;
+
+    min-width: 200px;
+    border: 1px solid var(--accent-color);
+    border-radius: 4px;
+    justify-content: center;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 10px 24px;
+}
+
+.section {
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
+
+.list-flex {
+    display: flex;
+}
+
+.req-list-item:not(:last-child) {
+    margin-right: 30px;
+}
+
+.img-list-item:not(:last-child) {
+    margin-right: 30px;
 }
 
 .list>.desc-title {
@@ -166,6 +204,10 @@ body {
     font-size: 14px;
     text-transform: uppercase;
     letter-spacing: 0.03em;
+}
+
+.desc-title {
+    margin-bottom: 10px;
 }
 
 .description {
@@ -182,6 +224,8 @@ body {
     line-height: 1.16;
     text-align: center;
     letter-spacing: 0.03em;
+
+    margin-bottom: 50px;
 }
 
 .hero {
@@ -190,6 +234,11 @@ body {
 
 .hero-list-item {
     background: #FFFFFF;
+    padding-bottom: 30px;
+}
+
+.hero-list-item:not(:last-child) {
+    margin-right: 30px;
 }
 
 .hero-list-name {
@@ -199,6 +248,9 @@ body {
     line-height: 1.18;
     text-align: center;
     letter-spacing: 0.03em;
+
+    margin-top: 30px;
+    margin-bottom: 10px;
 }
 
 .hero-list-title {
@@ -252,6 +304,8 @@ body {
 
 .footer {
     background: #2F303A;
+    padding-top: 60px;
+    padding-bottom: 60px;
 }
 
 .footer .logo-span {
